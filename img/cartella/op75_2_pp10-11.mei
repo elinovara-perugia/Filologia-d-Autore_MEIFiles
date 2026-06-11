@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-CMN.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Neue Liebe, neues Leben</title>
+            <respStmt>
+               <persName xml:id="composer" auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118508288" role="composer">Ludwig van Beethoven</persName>
+               <persName xml:id="encoder" auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="000000000" role="encoder">Nome Encoder</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt><date isodate="2025-01-01T00:00:00"/></pubStmt>
+         <sourceDesc><source><bibl>
+            <title>Neue Liebe, neues Leben, op. 75 Nr. 2</title>
+            <identifier>HCB Mh 34</identifier>
+            <repository>Beethoven-Haus Bonn</repository>
+         </bibl></source></sourceDesc>
+      </fileDesc>
+      <encodingDesc xml:id="encodingDesc"><appInfo xml:id="appInfo">
+         <application xml:id="application" enddate="2025-01-01T00:00:00" startdate="2025-01-01T00:00:00" version="1.4.0">
+            <name xml:id="appName">mei-friend</name>
+            <p xml:id="appNote">Encoded with mei-friend.</p>
+         </application>
+      </appInfo></encodingDesc>
+   </meiHead>
+   <music xml:id="music">
+      <facsimile xml:id="facsimile">
+         <surface xml:id="surface_01KSDKHN6NRVX0P91WRKEGTSYB" n="1" ulx="0" uly="0" lrx="1919" lry="1423">
+            <graphic xml:id="graphic_surface_01KSDKHN6NRVX0P91WRKEGTSYB" height="1424" target="00003431_0010_ganz.jpg" width="1920"/>
+            <zone xml:id="zone_01KSDKHN6NGBHYMP0M8G1JPMBS" lrx="733" lry="494" type="measure" ulx="231" uly="82"/>
+            <zone xml:id="zone_01KSDKHN6PQ428MHWWSQ4GGVPM" lrx="1077" lry="469" type="measure" ulx="698" uly="83"/>
+            <zone xml:id="zone_01KSDKHN6PZDTKN9J924EXBBR1" lrx="1489" lry="463" type="measure" ulx="1039" uly="90"/>
+            <zone xml:id="zone_01KSDKHN6PG90H6T98PMCC8V1S" lrx="1827" lry="479" type="measure" ulx="1452" uly="98"/>
+            <zone xml:id="zone_01KSDKHN6PQY3FQSB6F39PGX3M" lrx="647" lry="878" type="measure" ulx="230" uly="429"/>
+            <zone xml:id="zone_01KSDKHN6PV9X6AZVVFWRQA90W" lrx="938" lry="839" type="measure" ulx="601" uly="468"/>
+            <zone xml:id="zone_01KSDKHN6PA6M14GWGMPE2W5R5" lrx="1252" lry="816" type="measure" ulx="900" uly="480"/>
+            <zone xml:id="zone_01KSDKHN6PNF335TK7M6KG9GBD" lrx="1556" lry="818" type="measure" ulx="1207" uly="473"/>
+            <zone xml:id="zone_01KSDKHN6PT45WR9FVSCGN1GVC" lrx="688" lry="1198" type="measure" ulx="227" uly="823"/>
+            <zone xml:id="zone_01KSDKHN6PX0T3X6ET18SS1GC8" lrx="952" lry="1186" type="measure" ulx="646" uly="825"/>
+            <zone xml:id="zone_01KSDKHN6PE1X2ZQTH742H1A5V" lrx="1202" lry="1207" type="measure" ulx="905" uly="817"/>
+         </surface>
+         <surface xml:id="surface_01KSDKHN6PJGB3516HRSHVJ8VH" n="2" ulx="0" uly="0" lrx="1919" lry="1423">
+            <graphic xml:id="graphic_surface_01KSDKHN6PJGB3516HRSHVJ8VH" height="1424" target="00003431_0011_ganz.jpg" width="1920"/>
+            <zone xml:id="zone_01KSDKHN6Q9GMHJ051Y8MF7BSW" lrx="432" lry="435" type="measure" ulx="97" uly="73"/>
+            <zone xml:id="zone_01KSDKHN6Q3KR9F76YZMB8XSZM" lrx="770" lry="446" type="measure" ulx="402" uly="60"/>
+            <zone xml:id="zone_01KSDKHN6QHYR2EG9YR19KPM69" lrx="1020" lry="443" type="measure" ulx="738" uly="63"/>
+            <zone xml:id="zone_01KSDKHN6Q7TRE278KVCZW4EJE" lrx="1261" lry="443" type="measure" ulx="986" uly="73"/>
+            <zone xml:id="zone_01KSDKHN6Q20GY376ZDDRWS8G2" lrx="1734" lry="448" type="measure" ulx="1221" uly="69"/>
+            <zone xml:id="zone_01KSDKHN6QXA2B3MRW93SX8J75" lrx="474" lry="824" type="measure" ulx="123" uly="448"/>
+            <zone xml:id="zone_01KSDKHN6Q32VS7SFR227KJTNT" lrx="963" lry="837" type="measure" ulx="452" uly="429"/>
+            <zone xml:id="zone_01KSDKHN6QW4G6Y0JD77J77KH2" lrx="1270" lry="821" type="measure" ulx="937" uly="422"/>
+            <zone xml:id="zone_01KSDKHN6Q0CYZRYAFAKVV7TZ7" lrx="1471" lry="801" type="measure" ulx="1243" uly="428"/>
+            <zone xml:id="zone_01KSDKHN6QSYVA6K9XBBWK0N4K" lrx="1649" lry="793" type="measure" ulx="1440" uly="438"/>
+            <zone xml:id="zone_01KSDKHN6QMTT15A0HX8AZMC3Q" lrx="1753" lry="790" type="measure" ulx="1617" uly="446"/>
+            <zone xml:id="zone_01KSDKHN6RD34HMXVCCZH891EN" lrx="1827" lry="783" type="measure" ulx="1712" uly="445"/>
+            <zone xml:id="zone_01KSDKHN6RKG79EWJ28RMZQN7Q" lrx="618" lry="1199" type="measure" ulx="114" uly="825"/>
+            <zone xml:id="zone_01KSDKHN6RRKAD7MR07MRQFDKY" lrx="874" lry="1176" type="measure" ulx="579" uly="801"/>
+            <zone xml:id="zone_01KSDKHN6RA1TZV3F3P78ZDQ4N" lrx="1068" lry="1180" type="measure" ulx="842" uly="805"/>
+            <zone xml:id="zone_01KSDKHN6RA2KGVRF1ECVNYCMT" lrx="1210" lry="1204" type="measure" ulx="1038" uly="808"/>
+            <zone xml:id="zone_01KSDKHN6RNKFFVTEJ9AAEX6CM" lrx="1404" lry="1216" type="measure" ulx="1178" uly="803"/>
+         </surface>
+      </facsimile>
+      <body xml:id="body"><mdiv xml:id="mdiv"><score xml:id="score">
+         <scoreDef xml:id="scoreDef">
+            <pgHead xml:id="pgHead" func="first">
+               <rend xml:id="pgHeadCenter" halign="center" valign="top">
+                  <rend xml:id="titleRend" fontsize="x-large" type="title">Neue Liebe, neues Leben</rend>
+                  <lb xml:id="titleLb"/>
+                  <rend xml:id="subtitleRend" fontsize="large" type="subtitle">op. 75, Nr. 2 – HCB Mh 34</rend>
+               </rend>
+               <rend xml:id="pgHeadRight" halign="right" valign="bottom">
+                  <rend xml:id="composerRend" type="composer">Ludwig van Beethoven</rend>
+               </rend>
+            </pgHead>
+            <staffGrp xml:id="staffGrp">
+               <staffDef xml:id="staffDef1" keysig="0" lines="5" meter.count="4" meter.unit="4" n="1">
+                  <clef xml:id="clef1" line="2" shape="G"/>
+                  <instrDef xml:id="instrDef1" midi.channel="1" midi.instrnum="52" midi.volume="80.00%"/>
+               </staffDef>
+               <staffGrp xml:id="staffGrpBrace" bar.thru="true" symbol="brace">
+                  <staffDef xml:id="staffDef2" keysig="0" lines="5" meter.count="4" meter.unit="4" n="2">
+                     <clef xml:id="clef2" line="2" shape="G"/>
+                     <instrDef xml:id="instrDef2" midi.channel="0" midi.instrnum="0" midi.volume="62.00%"/>
+                  </staffDef>
+                  <staffDef xml:id="staffDef3" keysig="0" lines="5" meter.count="4" meter.unit="4" n="3">
+                     <clef xml:id="clef3" line="4" shape="F"/>
+                     <instrDef xml:id="instrDef3" midi.channel="0" midi.instrnum="0" midi.volume="62.00%"/>
+                  </staffDef>
+               </staffGrp>
+            </staffGrp>
+         </scoreDef>
+         <section xml:id="section">
+                  <pb xml:id="pb_surface_01KSDKHN6NRVX0P91WRKEGTSYB" facs="#surface_01KSDKHN6NRVX0P91WRKEGTSYB" n="01"/>
+                  <measure xml:id="measure_01KSDKHN6N8FG65HW22D20DAR6" n="112" facs="#zone_01KSDKHN6NGBHYMP0M8G1JPMBS">
+                     <staff xml:id="m112s1" n="1"><layer xml:id="m112s1l1" n="1"><mRest xml:id="m112s1l1rest"/></layer></staff>
+                     <staff xml:id="m112s2" n="2"><layer xml:id="m112s2l1" n="1"><mRest xml:id="m112s2l1rest"/></layer></staff>
+                     <staff xml:id="m112s3" n="3"><layer xml:id="m112s3l1" n="1"><mRest xml:id="m112s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDKHN6PVV0JNX16Z2VPR5B6" n="113" facs="#zone_01KSDKHN6PQ428MHWWSQ4GGVPM">
+                     <staff xml:id="m113s1" n="1"><layer xml:id="m113s1l1" n="1"><mRest xml:id="m113s1l1rest"/></layer></staff>
+                     <staff xml:id="m113s2" n="2"><layer xml:id="m113s2l1" n="1"><mRest xml:id="m113s2l1rest"/></layer></staff>
+                     <staff xml:id="m113s3" n="3"><layer xml:id="m113s3l1" n="1"><mRest xml:id="m113s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDKHN6PTNDX5MYVZKB0ANG2" n="114" facs="#zone_01KSDKHN6PZDTKN9J924EXBBR1">
+                     <staff xml:id="m114s1" n="1"><layer xml:id="m114s1l1" n="1"><mRest xml:id="m114s1l1rest"/></layer></staff>
+                     <staff xml:id="m114s2" n="2"><layer xml:id="m114s2l1" n="1"><mRest xml:id="m114s2l1rest"/></layer></staff>
+                     <staff xml:id="m114s3" n="3"><layer xml:id="m114s3l1" n="1"><mRest xml:id="m114s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDKHN6PPQNKXEBNH9J49QPH" n="115" facs="#zone_01KSDKHN6PG90H6T98PMCC8V1S">
+                     <staff xml:id="m115s1" n="1"><layer xml:id="m115s1l1" n="1"><mRest xml:id="m115s1l1rest"/></layer></staff>
+                     <staff xml:id="m115s2" n="2"><layer xml:id="m115s2l1" n="1"><mRest xml:id="m115s2l1rest"/></layer></staff>
+                     <staff xml:id="m115s3" n="3"><layer xml:id="m115s3l1" n="1"><mRest xml:id="m115s3l1rest"/></layer></staff>
+                  </measure>
+                  <sb/>
+                  <measure xml:id="measure_01KSDKHN6P7B3E8P27NRWT98FE" n="116" facs="#zone_01KSDKHN6PQY3FQSB6F39PGX3M">
+                     <staff xml:id="m116s1" n="1"><layer xml:id="m116s1l1" n="1"><mRest xml:id="m116s1l1rest"/></layer></staff>
+                     <staff xml:id="m116s2" n="2"><layer xml:id="m116s2l1" n="1"><mRest xml:id="m116s2l1rest"/></layer></staff>
+                     <staff xml:id="m116s3" n="3"><layer xml:id="m116s3l1" n="1"><mRest xml:id="m116s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDKHN6PW5BFFSH9AR302NH9" n="117" facs="#zone_01KSDKHN6PV9X6AZVVFWRQA90W">
+                     <staff xml:id="m117s1" n="1"><layer xml:id="m117s1l1" n="1"><mRest xml:id="m117s1l1rest"/></layer></staff>
+                     <staff xml:id="m117s2" n="2"><layer xml:id="m117s2l1" n="1"><mRest xml:id="m117s2l1rest"/></layer></staff>
+                     <staff xml:id="m117s3" n="3"><layer xml:id="m117s3l1" n="1"><mRest xml:id="m117s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDKHN6P3HTGFTAXVMAAS48X" n="118" facs="#zone_01KSDKHN6PA6M14GWGMPE2W5R5">
+                     <staff xml:id="m118s1" n="1"><layer xml:id="m118s1l1" n="1"><mRest xml:id="m118s1l1rest"/></layer></staff>
+                     <staff xml:id="m118s2" n="2"><layer xml:id="m118s2l1" n="1"><mRest xml:id="m118s2l1rest"/></layer></staff>
+                     <staff xml:id="m118s3" n="3"><layer xml:id="m118s3l1" n="1"><mRest xml:id="m118s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDKHN6PXKP73YYCB3D1561E" n="119" facs="#zone_01KSDKHN6PNF335TK7M6KG9GBD">
+                     <staff xml:id="m119s1" n="1"><layer xml:id="m119s1l1" n="1"><mRest xml:id="m119s1l1rest"/></layer></staff>
+                     <staff xml:id="m119s2" n="2"><layer xml:id="m119s2l1" n="1"><mRest xml:id="m119s2l1rest"/></layer></staff>
+                     <staff xml:id="m119s3" n="3"><layer xml:id="m119s3l1" n="1"><mRest xml:id="m119s3l1rest"/></layer></staff>
+                  </measure>
+                  <sb/>
+                  <measure xml:id="measure_01KSDKHN6P03CK3WH56EQ5W08F" n="120" facs="#zone_01KSDKHN6PT45WR9FVSCGN1GVC">
+                     <staff xml:id="m120s1" n="1"><layer xml:id="m120s1l1" n="1"><mRest xml:id="m120s1l1rest"/></layer></staff>
+                     <staff xml:id="m120s2" n="2"><layer xml:id="m120s2l1" n="1"><mRest xml:id="m120s2l1rest"/></layer></staff>
+                     <staff xml:id="m120s3" n="3"><layer xml:id="m120s3l1" n="1"><mRest xml:id="m120s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDKHN6PZMWNSJEQHDX7QWAG" n="121" facs="#zone_01KSDKHN6PX0T3X6ET18SS1GC8">
+                     <staff xml:id="m121s1" n="1"><layer xml:id="m121s1l1" n="1"><mRest xml:id="m121s1l1rest"/></layer></staff>
+                     <staff xml:id="m121s2" n="2"><layer xml:id="m121s2l1" n="1"><mRest xml:id="m121s2l1rest"/></layer></staff>
+                     <staff xml:id="m121s3" n="3"><layer xml:id="m121s3l1" n="1"><mRest xml:id="m121s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDKHN6PVCYMGS9NVTBGESYN" n="122" facs="#zone_01KSDKHN6PE1X2ZQTH742H1A5V">
+                     <staff xml:id="m122s1" n="1"><layer xml:id="m122s1l1" n="1"><mRest xml:id="m122s1l1rest"/></layer></staff>
+                     <staff xml:id="m122s2" n="2"><layer xml:id="m122s2l1" n="1"><mRest xml:id="m122s2l1rest"/></layer></staff>
+                     <staff xml:id="m122s3" n="3"><layer xml:id="m122s3l1" n="1"><mRest xml:id="m122s3l1rest"/></layer></staff>
+                  </measure>
+                  <sb/>
+                  <pb xml:id="pb_surface_01KSDKHN6PJGB3516HRSHVJ8VH" facs="#surface_01KSDKHN6PJGB3516HRSHVJ8VH" n="02"/>
+                  <measure xml:id="measure_01KSDKHN6Q9HXWYANCN51AA4DH" n="123" facs="#zone_01KSDKHN6Q9GMHJ051Y8MF7BSW">
+                     <staff xml:id="m123s1" n="1"><layer xml:id="m123s1l1" n="1"><mRest xml:id="m123s1l1rest"/></layer></staff>
+                     <staff xml:id="m123s2" n="2"><layer xml:id="m123s2l1" n="1"><mRest xml:id="m123s2l1rest"/></layer></staff>
+                     <staff xml:id="m123s3" n="3"><layer xml:id="m123s3l1" n="1"><mRest xml:id="m123s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDKHN6QXP5RJGYD6F8FSRR3" n="124" facs="#zone_01KSDKHN6Q3KR9F76YZMB8XSZM">
+                     <staff xml:id="m124s1" n="1"><layer xml:id="m124s1l1" n="1"><mRest xml:id="m124s1l1rest"/></layer></staff>
+                     <staff xml:id="m124s2" n="2"><layer xml:id="m124s2l1" n="1"><mRest xml:id="m124s2l1rest"/></layer></staff>
+                     <staff xml:id="m124s3" n="3"><layer xml:id="m124s3l1" n="1"><mRest xml:id="m124s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDKHN6QS8E8FCHXA3565ZGV" n="125" facs="#zone_01KSDKHN6QHYR2EG9YR19KPM69">
+                     <staff xml:id="m125s1" n="1"><layer xml:id="m125s1l1" n="1"><mRest xml:id="m125s1l1rest"/></layer></staff>
+                     <staff xml:id="m125s2" n="2"><layer xml:id="m125s2l1" n="1"><mRest xml:id="m125s2l1rest"/></layer></staff>
+                     <staff xml:id="m125s3" n="3"><layer xml:id="m125s3l1" n="1"><mRest xml:id="m125s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDKHN6QP5R92SGXBX8YGQPH" n="126" facs="#zone_01KSDKHN6Q7TRE278KVCZW4EJE">
+                     <staff xml:id="m126s1" n="1"><layer xml:id="m126s1l1" n="1"><mRest xml:id="m126s1l1rest"/></layer></staff>
+                     <staff xml:id="m126s2" n="2"><layer xml:id="m126s2l1" n="1"><mRest xml:id="m126s2l1rest"/></layer></staff>
+                     <staff xml:id="m126s3" n="3"><layer xml:id="m126s3l1" n="1"><mRest xml:id="m126s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDKHN6QA59AAFYQKPBQVQAR" n="127" facs="#zone_01KSDKHN6Q20GY376ZDDRWS8G2">
+                     <staff xml:id="m127s1" n="1"><layer xml:id="m127s1l1" n="1"><mRest xml:id="m127s1l1rest"/></layer></staff>
+                     <staff xml:id="m127s2" n="2"><layer xml:id="m127s2l1" n="1"><mRest xml:id="m127s2l1rest"/></layer></staff>
+                     <staff xml:id="m127s3" n="3"><layer xml:id="m127s3l1" n="1"><mRest xml:id="m127s3l1rest"/></layer></staff>
+                  </measure>
+                  <sb/>
+                  <measure xml:id="measure_01KSDKHN6QZDX0XCQX6V0R00BR" n="128" facs="#zone_01KSDKHN6QXA2B3MRW93SX8J75">
+                     <staff xml:id="m128s1" n="1"><layer xml:id="m128s1l1" n="1"><mRest xml:id="m128s1l1rest"/></layer></staff>
+                     <staff xml:id="m128s2" n="2"><layer xml:id="m128s2l1" n="1"><mRest xml:id="m128s2l1rest"/></layer></staff>
+                     <staff xml:id="m128s3" n="3"><layer xml:id="m128s3l1" n="1"><mRest xml:id="m128s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDKHN6QYRYR3X89JH1JSVWJ" n="129" facs="#zone_01KSDKHN6Q32VS7SFR227KJTNT">
+                     <staff xml:id="m129s1" n="1"><layer xml:id="m129s1l1" n="1"><mRest xml:id="m129s1l1rest"/></layer></staff>
+                     <staff xml:id="m129s2" n="2"><layer xml:id="m129s2l1" n="1"><mRest xml:id="m129s2l1rest"/></layer></staff>
+                     <staff xml:id="m129s3" n="3"><layer xml:id="m129s3l1" n="1"><mRest xml:id="m129s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDKHN6Q4060QFVDHQ5R14XA" n="130" facs="#zone_01KSDKHN6QW4G6Y0JD77J77KH2">
+                     <staff xml:id="m130s1" n="1"><layer xml:id="m130s1l1" n="1"><mRest xml:id="m130s1l1rest"/></layer></staff>
+                     <staff xml:id="m130s2" n="2"><layer xml:id="m130s2l1" n="1"><mRest xml:id="m130s2l1rest"/></layer></staff>
+                     <staff xml:id="m130s3" n="3"><layer xml:id="m130s3l1" n="1"><mRest xml:id="m130s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDKHN6Q7SQ4XZJW323JB3JW" n="131" facs="#zone_01KSDKHN6Q0CYZRYAFAKVV7TZ7">
+                     <staff xml:id="m131s1" n="1"><layer xml:id="m131s1l1" n="1"><mRest xml:id="m131s1l1rest"/></layer></staff>
+                     <staff xml:id="m131s2" n="2"><layer xml:id="m131s2l1" n="1"><mRest xml:id="m131s2l1rest"/></layer></staff>
+                     <staff xml:id="m131s3" n="3"><layer xml:id="m131s3l1" n="1"><mRest xml:id="m131s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDKHN6QXCCW6GGC7YRBQKMQ" n="132" facs="#zone_01KSDKHN6QSYVA6K9XBBWK0N4K">
+                     <staff xml:id="m132s1" n="1"><layer xml:id="m132s1l1" n="1"><mRest xml:id="m132s1l1rest"/></layer></staff>
+                     <staff xml:id="m132s2" n="2"><layer xml:id="m132s2l1" n="1"><mRest xml:id="m132s2l1rest"/></layer></staff>
+                     <staff xml:id="m132s3" n="3"><layer xml:id="m132s3l1" n="1"><mRest xml:id="m132s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDKHN6RKYB3AYCPQE8JFARA" n="133" facs="#zone_01KSDKHN6QMTT15A0HX8AZMC3Q">
+                     <staff xml:id="m133s1" n="1"><layer xml:id="m133s1l1" n="1"><mRest xml:id="m133s1l1rest"/></layer></staff>
+                     <staff xml:id="m133s2" n="2"><layer xml:id="m133s2l1" n="1"><mRest xml:id="m133s2l1rest"/></layer></staff>
+                     <staff xml:id="m133s3" n="3"><layer xml:id="m133s3l1" n="1"><mRest xml:id="m133s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDKHN6RGG6PWXSTNR7JX2TF" n="134" facs="#zone_01KSDKHN6RD34HMXVCCZH891EN">
+                     <staff xml:id="m134s1" n="1"><layer xml:id="m134s1l1" n="1"><mRest xml:id="m134s1l1rest"/></layer></staff>
+                     <staff xml:id="m134s2" n="2"><layer xml:id="m134s2l1" n="1"><mRest xml:id="m134s2l1rest"/></layer></staff>
+                     <staff xml:id="m134s3" n="3"><layer xml:id="m134s3l1" n="1"><mRest xml:id="m134s3l1rest"/></layer></staff>
+                  </measure>
+                  <sb/>
+                  <measure xml:id="measure_01KSDKHN6RQ0672QQ4QCVSPN7Z" n="135" facs="#zone_01KSDKHN6RKG79EWJ28RMZQN7Q">
+                     <staff xml:id="m135s1" n="1"><layer xml:id="m135s1l1" n="1"><mRest xml:id="m135s1l1rest"/></layer></staff>
+                     <staff xml:id="m135s2" n="2"><layer xml:id="m135s2l1" n="1"><mRest xml:id="m135s2l1rest"/></layer></staff>
+                     <staff xml:id="m135s3" n="3"><layer xml:id="m135s3l1" n="1"><mRest xml:id="m135s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDKHN6RGN2BZADCTTB50KP5" n="136" facs="#zone_01KSDKHN6RRKAD7MR07MRQFDKY">
+                     <staff xml:id="m136s1" n="1"><layer xml:id="m136s1l1" n="1"><mRest xml:id="m136s1l1rest"/></layer></staff>
+                     <staff xml:id="m136s2" n="2"><layer xml:id="m136s2l1" n="1"><mRest xml:id="m136s2l1rest"/></layer></staff>
+                     <staff xml:id="m136s3" n="3"><layer xml:id="m136s3l1" n="1"><mRest xml:id="m136s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDKHN6R1WAA56CCXDP9R368" n="137" facs="#zone_01KSDKHN6RA1TZV3F3P78ZDQ4N">
+                     <staff xml:id="m137s1" n="1"><layer xml:id="m137s1l1" n="1"><mRest xml:id="m137s1l1rest"/></layer></staff>
+                     <staff xml:id="m137s2" n="2"><layer xml:id="m137s2l1" n="1"><mRest xml:id="m137s2l1rest"/></layer></staff>
+                     <staff xml:id="m137s3" n="3"><layer xml:id="m137s3l1" n="1"><mRest xml:id="m137s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDKHN6RF1C5D0YJGY12S2F2" n="138" facs="#zone_01KSDKHN6RA2KGVRF1ECVNYCMT">
+                     <staff xml:id="m138s1" n="1"><layer xml:id="m138s1l1" n="1"><mRest xml:id="m138s1l1rest"/></layer></staff>
+                     <staff xml:id="m138s2" n="2"><layer xml:id="m138s2l1" n="1"><mRest xml:id="m138s2l1rest"/></layer></staff>
+                     <staff xml:id="m138s3" n="3"><layer xml:id="m138s3l1" n="1"><mRest xml:id="m138s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure right="end" xml:id="measure_01KSDKHN6RRWX9V1JAHYS5AXQ1" n="139" facs="#zone_01KSDKHN6RNKFFVTEJ9AAEX6CM">
+                     <staff xml:id="m139s1" n="1"><layer xml:id="m139s1l1" n="1"><mRest xml:id="m139s1l1rest"/></layer></staff>
+                     <staff xml:id="m139s2" n="2"><layer xml:id="m139s2l1" n="1"><mRest xml:id="m139s2l1rest"/></layer></staff>
+                     <staff xml:id="m139s3" n="3"><layer xml:id="m139s3l1" n="1"><mRest xml:id="m139s3l1rest"/></layer></staff>
+                  </measure>
+                  <sb/>
+         </section>
+      </score></mdiv></body>
+   </music>
+</mei>

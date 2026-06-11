@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+<?xml-model href=https://music-encoding.org/schema/5.0/mei-all.rng type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<meiHead>
+      <fileDesc xml:id="fdmph1i1">
+         <titleStmt xml:id="t8vpghz1">
+            <title xml:id="tmo3flb">Hello World </title>
+            <title xml:id="idfb."> This is my first encoding with MEI</title>
+         </titleStmt>
+         <pubStmt xml:id="pfdxxq91">
+            <respStmt xml:id="raf9bnh1">
+               <resp xml:id="rj24hui2"> Encoded by: </resp>
+               <persName xml:id="pi69jzv2"> &gt;Elisa Novara</persName>
+            </respStmt>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc xml:id="egam1a91">
+         <appInfo xml:id="afpolue1">
+            <application xml:id="a0zh7oq2" enddate="2026-05-27T17:20:16" startdate="2026-05-27T17:10:07" version="1.3.0">
+               <name xml:id="np5yuze">mei-friend</name>
+               <p xml:id="p3448el2">First edit by mei-friend 1.3.0.</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+<music xml:id="mlqdfx2">
+    <body xml:id="bfps1sb">
+        <mdiv xml:id="mrqgjmk2">
+            <score xml:id="s1svcas2">
+                <scoreDef xml:id="s3gzxrs2" keysig="3f" meter.count="6" meter.unit="8">
+                     <staffGrp xml:id="so44dre1">
+                        <staffDef xml:id="syrl2j31" clef.line="2" clef.shape="G" label="Singstimme" lines="5" n="1"/>
+                        <staffDef xml:id="scfdg8p2" clef.line="2" clef.shape="G" label="Pianoforte" lines="5" n="2"/>
+                        <staffDef xml:id="su30y0j2" clef.line="4" clef.shape="F" label="Pianoforte" lines="5" n="3"/>
+                    </staffGrp>
+                </scoreDef>
+                <section xml:id="swsy0c4">
+                    <measure xml:id="mo20cgc1" label="1" n="1">
+                        <staff xml:id="s2ojssh1" n="1">
+                            <layer xml:id="lbd23vd1" n="1"> 
+                                <note xml:id="nhg99x01" dur="8" oct="4" pname="c" stem.dir="down"/></layer>
+                        </staff>
+                    </measure>
+                </section>
+            </score>
+        </mdiv> 
+    </body>
+</music>
+</mei>
