@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-CMN.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Titolo del brano</title>
+            <respStmt>
+               <persName xml:id="composer" auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="000000000" role="composer">Nome Compositore</persName>
+               <persName xml:id="encoder" auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="000000000" role="encoder">Nome Encoder</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2025-01-01T00:00:00"/>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc xml:id="encodingDesc">
+         <appInfo xml:id="appInfo">
+            <application xml:id="application" enddate="2025-01-01T00:00:00" startdate="2025-01-01T00:00:00" version="1.4.0">
+               <name xml:id="appName">mei-friend</name>
+               <p xml:id="appNote">Encoded with mei-friend.</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music xml:id="music">
+      <facsimile xml:id="facsimile">
+         <surface xml:id="surface_01KSDDM41B3Q529BN7EPERT9TX" n="1" ulx="0" uly="0" lrx="7983" lry="5919">
+            <graphic xml:id="graphic_01KSDDM41CZZ6FAAA1ZBEE3J66" target="img/cartella/01.jpg" width="7984" height="5920"/>
+            <zone xml:id="zone_01KSDDM41CW5WVQYTF9E2AD3ZR" type="measure" ulx="501" uly="414" lrx="2239" lry="1924"/>
+            <zone xml:id="zone_01KSDDM41DCK75C68QX6PMERER" type="measure" ulx="2115" uly="417" lrx="3596" lry="1931"/>
+            <zone xml:id="zone_01KSDDM41D4H16C9N9X88PZYFE" type="measure" ulx="3424" uly="427" lrx="5099" lry="1947"/>
+            <zone xml:id="zone_01KSDDM41DRKGWKR7NG3F4V9SA" type="measure" ulx="4730" uly="445" lrx="6948" lry="1963"/>
+            <zone xml:id="zone_01KSDDM41DV643M9CWF79RV1B4" type="measure" ulx="458" uly="1925" lrx="1934" lry="3473"/>
+            <zone xml:id="zone_01KSDDM41DDXNJ2EJ4MQDSDC9F" type="measure" ulx="1799" uly="1970" lrx="3345" lry="3448"/>
+            <zone xml:id="zone_01KSDDM41EF5ZHCJJ6CC5PQ44G" type="measure" ulx="3222" uly="2037" lrx="4784" lry="3423"/>
+            <zone xml:id="zone_01KSDDM41ET8YWY87QX85V1VNJ" type="measure" ulx="4602" uly="2031" lrx="6490" lry="3507"/>
+            <zone xml:id="zone_01KSDDM41EGZGX4PTKR27YMD2A" type="measure" ulx="562" uly="3454" lrx="2279" lry="5013"/>
+            <zone xml:id="zone_01KSDDM41EVQEPNKN8XTTGBWK9" type="measure" ulx="2137" uly="3491" lrx="2981" lry="5012"/>
+            <zone xml:id="zone_01KSDDM41EQFRAJ7CMM8KDYWY4" type="measure" ulx="2852" uly="3475" lrx="4265" lry="5060"/>
+            <zone xml:id="zone_01KSDDM41EGGGAF3RH84K7NYBV" type="measure" ulx="4054" uly="3535" lrx="6105" lry="5171"/>
+            <zone xml:id="zone_01KSDDM41E6D6PS1GBX54E62P5" type="measure" ulx="5862" uly="3577" lrx="7191" lry="5313"/>
+         </surface>
+      </facsimile>
+      <body xml:id="body">
+         <mdiv xml:id="mdiv">
+            <score xml:id="score">
+               <scoreDef xml:id="scoreDef">
+                  <pgHead xml:id="pgHead" func="first">
+                     <rend xml:id="pgHeadCenter" halign="center" valign="top">
+                        <rend xml:id="titleRend" fontsize="x-large" type="title">Titolo del brano</rend>
+                        <lb xml:id="titleLb"/>
+                        <rend xml:id="subtitleRend" fontsize="large" type="subtitle">nach Mus. Hs. 0000</rend>
+                     </rend>
+                     <rend xml:id="pgHeadRight" halign="right" valign="bottom">
+                        <rend xml:id="composerRend" type="composer">Nome Compositore</rend>
+                     </rend>
+                  </pgHead>
+                  <staffGrp xml:id="staffGrp">
+                     <staffDef xml:id="staffDef1" keysig="0" lines="5" meter.count="4" meter.unit="4" n="1">
+                        <clef xml:id="clef1" line="2" shape="G"/>
+                        <instrDef xml:id="instrDef1" midi.channel="1" midi.instrnum="52" midi.volume="80.00%"/>
+                     </staffDef>
+                     <staffGrp xml:id="staffGrpBrace" bar.thru="true" symbol="brace">
+                        <staffDef xml:id="staffDef2" keysig="0" lines="5" meter.count="4" meter.unit="4" n="2">
+                           <clef xml:id="clef2" line="2" shape="G"/>
+                           <instrDef xml:id="instrDef2" midi.channel="0" midi.instrnum="0" midi.volume="62.00%"/>
+                        </staffDef>
+                        <staffDef xml:id="staffDef3" keysig="0" lines="5" meter.count="4" meter.unit="4" n="3">
+                           <clef xml:id="clef3" line="4" shape="F"/>
+                           <instrDef xml:id="instrDef3" midi.channel="0" midi.instrnum="0" midi.volume="62.00%"/>
+                        </staffDef>
+                     </staffGrp>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="section">
+                  <pb/>
+                  <measure xml:id="measure_01KSDDM41CV5CB2X79GJK8GXF9" n="1" facs="#zone_01KSDDM41CW5WVQYTF9E2AD3ZR">
+                     <staff xml:id="m1s1" n="1"><layer xml:id="m1s1l1" n="1"><mRest xml:id="m1s1l1rest"/></layer></staff>
+                     <staff xml:id="m1s2" n="2"><layer xml:id="m1s2l1" n="1"><mRest xml:id="m1s2l1rest"/></layer></staff>
+                     <staff xml:id="m1s3" n="3"><layer xml:id="m1s3l1" n="1"><mRest xml:id="m1s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDDM41DYQ0PDW0CNWFRF75D" n="2" facs="#zone_01KSDDM41DCK75C68QX6PMERER">
+                     <staff xml:id="m2s1" n="1"><layer xml:id="m2s1l1" n="1"><mRest xml:id="m2s1l1rest"/></layer></staff>
+                     <staff xml:id="m2s2" n="2"><layer xml:id="m2s2l1" n="1"><mRest xml:id="m2s2l1rest"/></layer></staff>
+                     <staff xml:id="m2s3" n="3"><layer xml:id="m2s3l1" n="1"><mRest xml:id="m2s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDDM41D3ZGB2TVMZYCVFRA7" n="3" facs="#zone_01KSDDM41D4H16C9N9X88PZYFE">
+                     <staff xml:id="m3s1" n="1"><layer xml:id="m3s1l1" n="1"><mRest xml:id="m3s1l1rest"/></layer></staff>
+                     <staff xml:id="m3s2" n="2"><layer xml:id="m3s2l1" n="1"><mRest xml:id="m3s2l1rest"/></layer></staff>
+                     <staff xml:id="m3s3" n="3"><layer xml:id="m3s3l1" n="1"><mRest xml:id="m3s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDDM41DKD4BEQ2GB8WWBDD0" n="4" facs="#zone_01KSDDM41DRKGWKR7NG3F4V9SA">
+                     <staff xml:id="m4s1" n="1"><layer xml:id="m4s1l1" n="1"><mRest xml:id="m4s1l1rest"/></layer></staff>
+                     <staff xml:id="m4s2" n="2"><layer xml:id="m4s2l1" n="1"><mRest xml:id="m4s2l1rest"/></layer></staff>
+                     <staff xml:id="m4s3" n="3"><layer xml:id="m4s3l1" n="1"><mRest xml:id="m4s3l1rest"/></layer></staff>
+                  </measure>
+                  <sb/>
+                  <measure xml:id="measure_01KSDDM41D8PEKBV3WD3QZTNBF" n="5" facs="#zone_01KSDDM41DV643M9CWF79RV1B4">
+                     <staff xml:id="m5s1" n="1"><layer xml:id="m5s1l1" n="1"><mRest xml:id="m5s1l1rest"/></layer></staff>
+                     <staff xml:id="m5s2" n="2"><layer xml:id="m5s2l1" n="1"><mRest xml:id="m5s2l1rest"/></layer></staff>
+                     <staff xml:id="m5s3" n="3"><layer xml:id="m5s3l1" n="1"><mRest xml:id="m5s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDDM41D7QEZBQ4PM9ZN2WCT" n="6" facs="#zone_01KSDDM41DDXNJ2EJ4MQDSDC9F">
+                     <staff xml:id="m6s1" n="1"><layer xml:id="m6s1l1" n="1"><mRest xml:id="m6s1l1rest"/></layer></staff>
+                     <staff xml:id="m6s2" n="2"><layer xml:id="m6s2l1" n="1"><mRest xml:id="m6s2l1rest"/></layer></staff>
+                     <staff xml:id="m6s3" n="3"><layer xml:id="m6s3l1" n="1"><mRest xml:id="m6s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDDM41ET62PS3C5VM0Y4Y5F" n="7" facs="#zone_01KSDDM41EF5ZHCJJ6CC5PQ44G">
+                     <staff xml:id="m7s1" n="1"><layer xml:id="m7s1l1" n="1"><mRest xml:id="m7s1l1rest"/></layer></staff>
+                     <staff xml:id="m7s2" n="2"><layer xml:id="m7s2l1" n="1"><mRest xml:id="m7s2l1rest"/></layer></staff>
+                     <staff xml:id="m7s3" n="3"><layer xml:id="m7s3l1" n="1"><mRest xml:id="m7s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDDM41EKAE60GZDJ3CYF03H" n="8" facs="#zone_01KSDDM41ET8YWY87QX85V1VNJ">
+                     <staff xml:id="m8s1" n="1"><layer xml:id="m8s1l1" n="1"><mRest xml:id="m8s1l1rest"/></layer></staff>
+                     <staff xml:id="m8s2" n="2"><layer xml:id="m8s2l1" n="1"><mRest xml:id="m8s2l1rest"/></layer></staff>
+                     <staff xml:id="m8s3" n="3"><layer xml:id="m8s3l1" n="1"><mRest xml:id="m8s3l1rest"/></layer></staff>
+                  </measure>
+                  <sb/>
+                  <measure xml:id="measure_01KSDDM41EMPRF02105ZHB4MV4" n="9" facs="#zone_01KSDDM41EGZGX4PTKR27YMD2A">
+                     <staff xml:id="m9s1" n="1"><layer xml:id="m9s1l1" n="1"><mRest xml:id="m9s1l1rest"/></layer></staff>
+                     <staff xml:id="m9s2" n="2"><layer xml:id="m9s2l1" n="1"><mRest xml:id="m9s2l1rest"/></layer></staff>
+                     <staff xml:id="m9s3" n="3"><layer xml:id="m9s3l1" n="1"><mRest xml:id="m9s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDDM41E7QT80JEQ878GZ0WE" n="10" facs="#zone_01KSDDM41EVQEPNKN8XTTGBWK9">
+                     <staff xml:id="m10s1" n="1"><layer xml:id="m10s1l1" n="1"><mRest xml:id="m10s1l1rest"/></layer></staff>
+                     <staff xml:id="m10s2" n="2"><layer xml:id="m10s2l1" n="1"><mRest xml:id="m10s2l1rest"/></layer></staff>
+                     <staff xml:id="m10s3" n="3"><layer xml:id="m10s3l1" n="1"><mRest xml:id="m10s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDDM41EHXX3TMVMR5FE6CZM" n="11" facs="#zone_01KSDDM41EQFRAJ7CMM8KDYWY4">
+                     <staff xml:id="m11s1" n="1"><layer xml:id="m11s1l1" n="1"><mRest xml:id="m11s1l1rest"/></layer></staff>
+                     <staff xml:id="m11s2" n="2"><layer xml:id="m11s2l1" n="1"><mRest xml:id="m11s2l1rest"/></layer></staff>
+                     <staff xml:id="m11s3" n="3"><layer xml:id="m11s3l1" n="1"><mRest xml:id="m11s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDDM41E28EX5X0RQ6J1PZZF" n="12" facs="#zone_01KSDDM41EGGGAF3RH84K7NYBV">
+                     <staff xml:id="m12s1" n="1"><layer xml:id="m12s1l1" n="1"><mRest xml:id="m12s1l1rest"/></layer></staff>
+                     <staff xml:id="m12s2" n="2"><layer xml:id="m12s2l1" n="1"><mRest xml:id="m12s2l1rest"/></layer></staff>
+                     <staff xml:id="m12s3" n="3"><layer xml:id="m12s3l1" n="1"><mRest xml:id="m12s3l1rest"/></layer></staff>
+                  </measure>
+                  <measure xml:id="measure_01KSDDM41F0C6JK32K2RH1T0T2" n="13" facs="#zone_01KSDDM41E6D6PS1GBX54E62P5" right="end">
+                     <staff xml:id="m13s1" n="1"><layer xml:id="m13s1l1" n="1"><mRest xml:id="m13s1l1rest"/></layer></staff>
+                     <staff xml:id="m13s2" n="2"><layer xml:id="m13s2l1" n="1"><mRest xml:id="m13s2l1rest"/></layer></staff>
+                     <staff xml:id="m13s3" n="3"><layer xml:id="m13s3l1" n="1"><mRest xml:id="m13s3l1rest"/></layer></staff>
+                  </measure>
+                  <sb/>
+                  <pb/>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
